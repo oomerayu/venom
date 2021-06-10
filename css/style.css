@@ -1,4 +1,25 @@
 body {
     background-color: #14131A;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu-item {
+    margin-right: 30px;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
 }
